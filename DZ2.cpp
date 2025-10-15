@@ -1,12 +1,13 @@
-void checkNumber() {
-    int n;
-    cout << "Enter a number: ";
-    cin >> n;
+#include <iostream>
 
-    if (n > 0)
-        cout << n << " is positive." << endl;
-    else if (n < 0)
-        cout << n << " is negative." << endl;
-    else
-        cout << "Number is zero." << endl;
+const int a = 10;
+
+int main()
+{
+if (a < 10)
+	std::cout << "a less then 0";
+if (a == 0)
+	std::cout << "a is 0";
+else
+	std::cout << "a more than zero";
 }
