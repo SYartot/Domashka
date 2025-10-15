@@ -1,7 +1,13 @@
-void stringLength() {
-    const char* text = "Ubuntu console example";
-    int length = 0;
-    while (text[length] != '\0') length++;
+#include <iostream>
 
-    cout << "String: \"" << text << "\" has length = " << length << endl;
+const char* x = "hello";
+
+int main()
+{
+  int i = 0;
+  while (x[i] != '\0')
+  {
+	i++;
+  }
+  std::cout << i;
 }
