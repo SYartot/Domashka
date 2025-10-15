@@ -1,13 +1,16 @@
-void sumEvenNumbers() {
-    int a, b;
-    cout << "Enter two numbers: ";
-    cin >> a >> b;
-    if (a > b) swap(a, b);
+#include <iostream>
+const int n1 = 4;
+const int n2 = 44;
+int total =0;
 
-    int sum = 0;
-    for (int i = a; i <= b; ++i) {
-        if (i % 2 == 0) sum += i;
-    }
+int main()
+{
+int i;
 
-    cout << "Sum of even numbers between " << a << " and " << b << " = " << sum << endl;
+  for(i = n1; i <= n2; i++)
+  {
+	if (i % 4 == 0)
+	total = tota; + i;
+  }
+std::cout << total;
 }
