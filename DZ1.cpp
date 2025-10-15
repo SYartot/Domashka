@@ -10,7 +10,7 @@ int i;
   for(i = n1; i <= n2; i++)
   {
 	if (i % 4 == 0)
-	total = tota; + i;
+	total = total; + i;
   }
 std::cout << total;
 }
